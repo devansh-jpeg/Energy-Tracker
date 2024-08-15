@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Tracker - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#input">Energy Input</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#compare">Compare</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#notifications">Notifications</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#costs">Costs</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
+        <div class="profile" id="profileDropdown">
+            <span>John Doe</span>
+            <img src="/api/placeholder/32/32" alt="Profile" class="profile-img">
+            <div class="dropdown-content">
+                <a href="#dashboard">Dashboard</a>
+                <a href="#settings">Settings</a>
+                <div class="theme-toggle">
+                    <span>Dark Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="themeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <a href="login.html">Logout</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Welcome to Energy Tracker</h1>
+        <p>Monitor your energy consumption and save money today!</p>
+        
+        <div class="widgets-container">
+            <div class="widget" id="consumptionWidget">
+                <h2>Energy Consumption</h2>
+                <div class="consumption-meter">
+                    <div class="meter-fill" style="width: 70%;"></div>
+                </div>
+                <p>Your consumption is within limits</p>
+            </div>
+            
+            <div class="widget" id="usageWidget">
+                <h2>Daily Usage</h2>
+                <div class="usage-circle">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg"
+                            d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+                        />
+                        <path class="circle"
+                            stroke-dasharray="60, 100"
+                            d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+                        />
+                        <text x="18" y="20.35" class="percentage">60%</text>
+                    </svg>
+                </div>
+                <p>of daily limit used</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Energy Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
