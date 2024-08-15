@@ -7,12 +7,6 @@ body {
     color: #333;
     transition: background-color 0.3s, color 0.3s;
 }
-
-body.dark-mode {
-    background-color: #1a1a1a;
-    color: #f0f0f0;
-}
-
 /* Login Page Styles */
 .login-body {
     background-size: cover;
@@ -106,10 +100,6 @@ header {
     align-items: center;
 }
 
-.dark-mode header {
-    background-color: #004080;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -147,105 +137,6 @@ nav ul li a:hover {
     margin-right: 10px;
 }
 
-.profile-img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-}
-
-.dropdown-content {
-    display: contents;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.dark-mode .dropdown-content {
-    background-color: #333;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dark-mode .dropdown-content a {
-    color: #f0f0f0;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dark-mode .dropdown-content a:hover {
-    background-color: #444;
-}
-
-.theme-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 16px;
-}
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-}
-
-input:checked + .slider {
-    background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
-}
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
 main {
     max-width: 1200px;
     margin: 40px auto;
@@ -255,10 +146,6 @@ main {
 
 h1 {
     color: #0066cc;
-}
-
-.dark-mode h1 {
-    color: #4da6ff;
 }
 
 .widgets-container {
@@ -278,27 +165,14 @@ h1 {
     cursor: pointer;
 }
 
-.dark-mode .widget {
-    background-color: #2a2a2a;
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-}
-
 .widget:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.dark-mode .widget:hover {
-    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15);
-}
-
 .widget h2 {
     color: #0066cc;
     margin-bottom: 20px;
-}
-
-.dark-mode .widget h2 {
-    color: #4da6ff;
 }
 
 .consumption-meter {
@@ -307,10 +181,6 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 10px;
-}
-
-.dark-mode .consumption-meter {
-    background-color: #444;
 }
 
 .meter-fill {
@@ -338,10 +208,6 @@ h1 {
     stroke-width: 3.8;
 }
 
-.dark-mode .circle-bg {
-    stroke: #444;
-}
-
 .circle {
     fill: none;
     stroke-width: 2.8;
@@ -363,10 +229,6 @@ h1 {
     text-anchor: middle;
 }
 
-.dark-mode .percentage {
-    fill: #ccc;
-}
-
 footer {
     background-color: #004080;
     color: #ffffff;
@@ -375,8 +237,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.dark-mode footer {
-    background-color: #002040;
 }
