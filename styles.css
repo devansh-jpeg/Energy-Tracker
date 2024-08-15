@@ -133,10 +133,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.profile span {
-    margin-right: 10px;
-}
-
 main {
     max-width: 1200px;
     margin: 40px auto;
