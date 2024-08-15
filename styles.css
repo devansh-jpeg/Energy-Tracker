@@ -154,7 +154,7 @@ nav ul li a:hover {
 }
 
 .dropdown-content {
-    display: none;
+    display: contents;
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
