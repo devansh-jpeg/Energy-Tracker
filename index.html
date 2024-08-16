@@ -26,9 +26,8 @@
                 <li><a href="#costs">Costs</a></li>
             </ul>
         </nav>
-        
         <div class="profile" id="profileDropdown">
-            <span>John Doe</span>
+            <span>Profile</span>
         </div>
     </header>
     <main>
@@ -64,10 +63,50 @@
                 </div>
                 <p>of daily limit used</p>
             </div>
+            <div class="widget" id="avgConsumptionWidget">
+                <h2>Average Consumption (Last 12 Months)</h2>
+                <div class="usage-circle">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg"
+                            d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+                        />
+                        <path class="circle"
+                            stroke-dasharray="75, 100"
+                            d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+                        />
+                        <text x="18" y="20.35" class="percentage">75%</text>
+                    </svg>
+                </div>
+                <p>of average monthly consumption</p>
+            </div>
+            <div class="widget" id="lastMonthWidget">
+                <h2>Last Month's Consumption</h2>
+                <div class="usage-circle">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg"
+                            d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+                        />
+                        <path class="circle"
+                            stroke-dasharray="85, 100"
+                            d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+                        />
+                        <text x="18" y="20.35" class="percentage">85%</text>
+                    </svg>
+                </div>
+                <p>of last month's limit used</p>
+            </div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Energy Tracker. All rights reserved.</p>
+        <p></p>
     </footer>
 </body>
 </html>

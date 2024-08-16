@@ -112,6 +112,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: flex;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
@@ -161,6 +162,7 @@ h1 {
     cursor: pointer;
 }
 
+
 .widget:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -197,6 +199,7 @@ h1 {
     max-width: 80%;
     max-height: 250px;
 }
+
 
 .circle-bg {
     fill: none;
@@ -246,6 +249,7 @@ footer {
 }
 
 .dropdown-img {
+    margin-top: 5px;
     height: 25px;
     width: 25px;
 }
