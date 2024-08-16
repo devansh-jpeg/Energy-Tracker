@@ -7,90 +7,6 @@ body {
     color: #333;
     transition: background-color 0.3s, color 0.3s;
 }
-/* Login Page Styles */
-.login-body {
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 40px;
-    width: 300px;
-}
-
-.login-form h1 {
-    text-align: center;
-    color: #0066cc;
-    margin-bottom: 30px;
-}
-
-.input-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #0066cc;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #0066cc;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-input:focus {
-    border-color: #004080;
-    box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
-    outline: none;
-}
-
-.login-btn {
-    width: 100%;
-    padding: 10px;
-    background-color: #0066cc;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.1s;
-}
-
-.login-btn:hover {
-    background-color: #004080;
-}
-
-.login-btn:active {
-    transform: scale(0.98);
-}
-
-.signup-link {
-    text-align: center;
-    margin-top: 20px;
-    color: #0066cc;
-}
-
-.signup-link a {
-    color: #004080;
-    text-decoration: none;
-}
-
-.signup-link a:hover {
-    text-decoration: underline;
-}
-
 /* Home Page Styles */
 header {
     background-color: #0066cc;
@@ -99,18 +15,15 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
-
 nav ul li {
     margin-right: 20px;
 }
-
 nav ul li a {
     display: flex;
     color: #ffffff;
@@ -119,13 +32,11 @@ nav ul li a {
     border-radius: 4px;
     transition: all 0.3s ease;
 }
-
 nav ul li a:hover {
     background-color: #004080;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
-
 .profile {
     display: flex;
     align-items: center;
